@@ -1,6 +1,6 @@
-module github.com/monchecker/top-analyzer
+module github.com/parth2601/monchecker/MonChecker/top-analyzer
 
-go 1.21
+go 1.23.8
 
 require github.com/sirupsen/logrus v1.9.3
 
