@@ -1,0 +1,168 @@
+{
+  "timestamp": "2025-05-08T12:10:33.296282645Z",
+  "last_crash_file": "crashes/crash-2025-05-08-12-10-33.json",
+  "last_crash_time": "2025-05-08T12:10:33.296284325Z",
+  "cpu": {
+    "user": 43.4,
+    "system": 17.3,
+    "idle": 39.1,
+    "load1": 5.86,
+    "load5": 5.29,
+    "load15": 5.44
+  },
+  "memory": {
+    "total": 2867580928,
+    "used": 1751363584,
+    "free": 365068288,
+    "used_percent": 61.074600088845344
+  },
+  "temperature": {
+    "sensors": {
+      "f10e4078.thermal": {
+        "value": 63.691,
+        "location": "CPU Core",
+        "max_temp": 69.881,
+        "avg_temp": 64.16760000000001
+      },
+      "lm75": {
+        "value": 49,
+        "location": "External I2C Sensor",
+        "max_temp": 49.5,
+        "avg_temp": 49.2
+      }
+    },
+    "max_temp": 69.881,
+    "avg_temp": 56.6838,
+    "history": {
+      "f10e4078.thermal": [
+        69.881,
+        69.881,
+        64.168,
+        64.168,
+        63.215,
+        63.215,
+        59.883,
+        59.883,
+        63.691,
+        63.691
+      ],
+      "lm75": [
+        49,
+        49,
+        49.5,
+        49.5,
+        49.5,
+        49.5,
+        49,
+        49,
+        49,
+        49
+      ]
+    }
+  },
+  "filesystem": {
+    "partitions": {
+      "/": {
+        "device": "/dev/mmcblk0p2",
+        "size": 237904896,
+        "used": 176618496,
+        "available": 44591104,
+        "used_percent": 80,
+        "free_space_percent": 20,
+        "mount_point": "/",
+        "critical": false
+      },
+      "/boot": {
+        "device": "/dev/mmcblk0p1",
+        "size": 98490368,
+        "used": 14853632,
+        "available": 83636736,
+        "used_percent": 15,
+        "free_space_percent": 85,
+        "mount_point": "/boot",
+        "critical": false
+      },
+      "/mnt/config": {
+        "device": "/dev/mtdblock1",
+        "size": 131072,
+        "used": 131072,
+        "available": 0,
+        "used_percent": 100,
+        "free_space_percent": 0,
+        "mount_point": "/mnt/config",
+        "critical": true
+      },
+      "/mnt/user": {
+        "device": "/dev/mmcblk0p4",
+        "size": 14785716224,
+        "used": 8073183232,
+        "available": 5937860608,
+        "used_percent": 58,
+        "free_space_percent": 42,
+        "mount_point": "/mnt/user",
+        "critical": false
+      }
+    },
+    "history": {
+      "/": [
+        21,
+        21,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "/boot": [
+        85,
+        85,
+        85,
+        85,
+        85,
+        85,
+        85,
+        85,
+        85,
+        85
+      ],
+      "/mnt/config": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/mnt/user": [
+        42,
+        42,
+        42,
+        42,
+        42,
+        42,
+        42,
+        42,
+        42,
+        42
+      ]
+    }
+  },
+  "processes": {
+    "total": 66,
+    "running": 1,
+    "sleeping": 65,
+    "uninterruptible": 0,
+    "zombie": 0,
+    "high_cpu": 0,
+    "high_memory": 14,
+    "high_cpu_processes": []
+  },
+  "system_stress": 80
+}
