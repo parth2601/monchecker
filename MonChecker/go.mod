@@ -1,3 +1,3 @@
-module github.com/parth2601/monchecker/MonChecker/top-analyzer
+module github.com/parth2601/monchecker/MonChecker
 
 go 1.23.8
