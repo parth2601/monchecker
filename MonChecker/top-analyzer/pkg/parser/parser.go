@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/monchecker/MonChecker/top-analyzer/pkg/temperature"
+	"github.com/parth2601/monchecker/MonChecker/top-analyzer/pkg/temperature"
 )
 
 // SystemStats represents the system statistics
