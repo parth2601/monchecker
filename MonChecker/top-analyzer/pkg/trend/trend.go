@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/monchecker/top-analyzer/pkg/parser"
+	"github.com/monchecker/MonChecker/top-analyzer/pkg/parser"
 )
 
 type Trend struct {
