@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/parth2601/monchecker/top-analyzer/pkg/parser"
+	"github.com/parth2601/monchecker/pkg/parser"
 )
 
 type Trend struct {
@@ -754,4 +754,16 @@ func (t *TrendAnalyzer) GetCurrentStats() *parser.SystemStats {
 		return nil
 	}
 	return t.history[len(t.history)-1]
+}
+
+// GetTempHistory returns the temperature history.
+// It provides access to the t.tempHistory field.
+func (t *TrendAnalyzer) GetTempHistory() map[string][]float64 {
+	return t.tempHistory
+}
+
+// GetHistory returns the system stats history.
+// It provides access to the t.history field.
+func (t *TrendAnalyzer) GetHistory() []*parser.SystemStats {
+	return t.history
 }
