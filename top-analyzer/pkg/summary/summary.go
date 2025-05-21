@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/parth2601/monchecker/MonChecker/top-analyzer/pkg/parser"
-	"github.com/parth2601/monchecker/MonChecker/top-analyzer/pkg/power"
-	"github.com/parth2601/monchecker/MonChecker/top-analyzer/pkg/temperature"
+	"github.com/parth2601/monchecker/top-analyzer/pkg/parser"
+	"github.com/parth2601/monchecker/top-analyzer/pkg/power"
+	"github.com/parth2601/monchecker/top-analyzer/pkg/temperature"
 )
 
 type SystemSummary struct {
