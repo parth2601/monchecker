@@ -11,11 +11,11 @@ import (
 
 	"os/exec"
 
-	"github.com/parth2601/monchecker/MonChecker/top-analyzer/pkg/filesystem"
-	"github.com/parth2601/monchecker/MonChecker/top-analyzer/pkg/parser"
-	"github.com/parth2601/monchecker/MonChecker/top-analyzer/pkg/summary"
-	"github.com/parth2601/monchecker/MonChecker/top-analyzer/pkg/temperature"
-	"github.com/parth2601/monchecker/MonChecker/top-analyzer/pkg/trend"
+	"github.com/parth2601/monchecker/top-analyzer/pkg/filesystem"
+	"github.com/parth2601/monchecker/top-analyzer/pkg/parser"
+	"github.com/parth2601/monchecker/top-analyzer/pkg/summary"
+	"github.com/parth2601/monchecker/top-analyzer/pkg/temperature"
+	"github.com/parth2601/monchecker/top-analyzer/pkg/trend"
 	"github.com/sirupsen/logrus"
 )
 
